@@ -7,9 +7,8 @@ body{
 
 @font-face{
   font-family: monoid;
-  src: url(assets/Monoid-Regular.ttf);
-  font-family: monoid-bold;
-  src: url(assets/Monoid-Bold.ttf);
+  src: url(assets/sf-ui-display-ultralight.woff);
+  font-style:normal;
 }
 
 #navbarSupportedContent{
@@ -17,11 +16,11 @@ body{
 }
 
 .header{
-  color:  #9d8771;
+  color:  #ffffff;
   text-align: center;
 }
 .header h1{
-  font-family: monoid-bold;
+  font-family: monoid;
 }
 
 .id{
@@ -35,9 +34,9 @@ body{
 
 #profile{
   text-align: center;
-  font-size: 20px;
+  font-size: 30px;
   padding-top: 20px;
-  color: #907860;
+  color: #ffffff;
 }
 #profile h4{
   padding-top: 20px;
@@ -48,8 +47,8 @@ body{
 }
 
 .typewriter h2{
-  font-family: monoid-bold;
-  color: #9d8771;
+  font-family: monoid;
+  color: #ffffff;
   letter-spacing: .15em;
   margin: 0 auto;
   text-align: center;
@@ -90,21 +89,26 @@ h1{
 
 
 #about_me{
-  color: #907860;
+  color: #ffffff;
   text-align: center;
   padding-top: 30px;
   padding-right: 10px;
 }
 #about_me p{
   text-align: left;
-  font-size: 20px;
+  font-size: 30px;
 }
 
+.hello-intro{
+  font-size: 50px;
+}
 
+#intro-card{
+  font-size: 30px;
+}
 #experience{
-  color: #907860;
+  color: #ffffff;
   text-align: center;
-
   margin-bottom: 10px;
   margin-top: 10px;
   padding-top: 30px;
@@ -113,12 +117,12 @@ h1{
 
 #experience p{
   text-align: left;
-  font-size: 18px;
+  font-size: 25px;
 
 }
 
 #goals{
-  color: #907860;
+  color: #ffffff;
   text-align: center;
   margin-bottom: 10px;
   margin-top: 10px;
@@ -127,7 +131,7 @@ h1{
 
 #goals p{
   text-align: left;
-  font-size: 20px;
+  font-size: 25px;
 }
 .projects{
 
@@ -142,21 +146,103 @@ h1{
 
 .card-body{
   font-family: monoid;
-  
+  margin-bottom: .25rem;
 }
 
 .card{
   padding-top: 20px;
-  margin-bottom: 20px;
+  margin-bottom: 30px;
   text-align: center;
   background-color:   #313c44 ;
 }
-#proj{
-  color: #907860;
+
+.card-title{
+  font-size: 40px;
+}
+.card-text{
+  font-size: 25px;
 }
 
+#project-button{
+  font-size: 25px;
+}
+#proj{
+  color: #fefdfd;
+  margin-bottom: 30px;
+}
 
+form input,
+form select,
+form textarea,
+form fieldset,
+form optgroup,
+form label,
+.StripeElement {
+  font-family: inherit;
+  font-size: 100%;
+  color: inherit;
+  border: none;
+  border-radius: 0;
+  display: block;
+  width: 50%;
+  padding: 0;
+  margin: 0;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+}
+form label,
+form legend {
+  font-size: 0.825rem;
+  margin-bottom: 0.5rem;
+}
+/* border, padding, margin, width */
+form input,
+form select,
+form textarea,
+.StripeElement {
+  box-sizing: border-box;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  background-color: rgba(255, 255, 255, 0.9);
+  padding: 0.75em 1rem;
+  margin-bottom: 1.5rem;
+}
+form input:focus,
+form select:focus,
+form textarea:focus,
+.StripeElement:focus {
+  background-color: white;
+  outline-style: solid;
+  outline-width: thin;
+  outline-color: gray;
+  outline-offset: -1px;
+}
+form [type="text"],
+form [type="email"],
+.StripeElement {
+  width: 50%;
+}
+form [type="button"],
+form [type="submit"],
+form [type="reset"] {
+  width: 50%;
+  cursor: pointer;
+  -webkit-appearance: button;
+  -moz-appearance: button;
+  appearance: button;
+}
+form [type="button"]:focus,
+form [type="submit"]:focus,
+form [type="reset"]:focus {
+  outline: none;
+}
 
+form select {
+  text-transform: none;
+}
+
+#sub-button{
+  width: 50%;
+}
 
 @media screen and (max-width: 801px){
 .typewriter h2{

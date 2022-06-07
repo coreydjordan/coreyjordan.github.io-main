@@ -24,8 +24,12 @@
           <a class="nav-link active" aria-current="page" href="#">Home</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="./Resume.pdf" download="Corey_Jordan_Resume">Download Resume</a>
+          <a class="nav-link active" aria-current="page" href="assets/Corey_Jordan_Resume2_15-05-2022-21-52-00.pdf" download="Corey_Jordan_Resume">Download Resume</a>
         </li>
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="contact-form.html">Contact</a>
+        </li>
+
         
         </li>
       </ul>
@@ -60,9 +64,11 @@
   </div>
 </nav><br>
 <div class="container">
-
+<div class="question">
+  <h1>Looking For a Developer?</h1>
+</div>
     <div class="header">
-      <h1>Hello, I'm Corey Jordan</h1>
+      <h1 class="hello-intro">Hello, I'm Corey Jordan</h1>
       </div>
       <div class="typewriter">
         <h2>I make things on the computer</h2>
@@ -74,7 +80,7 @@
       <div class="card h-100">
           <div class="card-body" id="profile">
               <img class="id" src="assets/IMG_1935.jpeg">
-              <h4>Hello!<br>
+              <h4 id="intro-card">Hello!<br>
               I am Corey Jordan
               </h4>
           </div><!--div card-body-->
@@ -138,21 +144,39 @@
     </div>
 
     <div class="row">
-      <div class="col-sm-6">
+      <div class="col-sm-6 mb-4">
         <div class="card h-100" id="proj">
           <div class="card-body">
             <h5 class="card-title">Flask Blog</h5>
             <p class="card-text">A blog application using Flask that allows for user authentication and post and get requests.</p>
-            <a href="https://github.com/coreydjordan/flask_blog.git" class="btn btn-primary">Github Repo</a>
+            <a id="project-button" href="https://github.com/coreydjordan/flask_blog.git" class="btn btn-primary">Github Repo</a>
           </div>
         </div>
-      </div>
-      <div class="col-sm-6">
+      </div><br>
+      <div class="col-sm-6 mb-4">
         <div class="card h-100" id="proj">
           <div class="card-body">
             <h5 class="card-title">Book List App</h5>
             <p class="card-text">A simple book list app that saves and removes books from local storage. Features validation using Vanilla Javascript.</p>
-            <a href="https://github.com/coreydjordanphx/flask_market.git" class="btn btn-primary">Github Repo</a>
+            <a id="project-button" href="https://github.com/coreydjordanphx/flask_market.git" class="btn btn-primary">Github Repo</a>
+          </div>
+        </div>
+      </div><br>
+      <div class="col-sm-6 mb-4">
+        <div class="card h-100 mb-r" id="proj">
+          <div class="card-body">
+            <h5 class="card-title">ISS Location Application</h5>
+            <p class="card-text">An application that gives the location of the ISS and can tell you how many people are in space. Uses two different APIs and is deployed to Heroku.</p>
+            <a id="project-button" href="https://github.com/coreydjordan/iss_api.git" class="btn btn-primary">Github Repo</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-6 mb-4">
+        <div class="card h-100 mb-r" id="proj">
+          <div class="card-body">
+            <h5 class="card-title">Password Generator</h5>
+            <p class="card-text">An application that allows you to create a password. With choices from 6-12 letters, and all uppercase, lowercase, numbers, and special characters.</p>
+            <a id="project-button" href="https://github.com/coreydjordan/password_generator.git" class="btn btn-primary">Github Repo</a>
           </div>
         </div>
       </div>
